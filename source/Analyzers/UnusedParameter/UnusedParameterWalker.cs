@@ -810,8 +810,7 @@ namespace Roslynator.CSharp.Analyzers.UnusedParameter
 
         public override void VisitOmittedTypeArgument(OmittedTypeArgumentSyntax node)
         {
-            Debug.Fail(node.ToString());
-            base.VisitOmittedTypeArgument(node);
+            //base.VisitOmittedTypeArgument(node);
         }
 
         public override void VisitOperatorDeclaration(OperatorDeclarationSyntax node)
